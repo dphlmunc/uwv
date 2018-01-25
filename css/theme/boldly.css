@@ -11,8 +11,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #222;}
 
 .reveal {
   font-family: "Montserrat", Impact, sans-serif;
@@ -262,8 +261,9 @@ body {
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
-  background: rgba(0, 0, 0, 0.2);
-  color: #ff00ff; }
+    background: rgba(0, 0, 0, 0.2);
+    color: #ff00ff;
+}
 
 .reveal .progress span {
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
